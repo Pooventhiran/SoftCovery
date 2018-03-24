@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="1" hostname="Cloud" id="IBM Bluemix" name="IBM Bluemix" org.eclipse.cft.org="cloudproject.ibm@gmail.com" org.eclipse.cft.serverId="cloudproject.ibm@gmail.com_cloudproject.ibm@gmail.com_dev@https://api.eu-gb.bluemix.net" org.eclipse.cft.space="dev" org.eclipse.cft.url="https://api.eu-gb.bluemix.net" org.eclipse.cft.username="cloudproject.ibm@gmail.com" runtime-id="IBM Bluemix Runtime" server-type="com.ibm.cftools.server" server-type-id="com.ibm.cftools.server" start-timeout="600" stop-timeout="60" timestamp="0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" hostname="localhost" id="WebSphere Application Server Liberty at localhost" looseConfig="true" name="WebSphere Application Server Liberty at localhost" publishWithError="true" runtime-id="WebSphere Application Server Liberty" server-type="com.ibm.ws.st.server.wlp" server-type-id="com.ibm.ws.st.server.wlp" serverName="defaultServer" serverType="libertyServer" start-timeout="60" stop-timeout="15" stopOnShutdown="false" timestamp="3" userDirId="WebSphere Application Server Liberty">
+    <list key="modules" value0="SoftCovery::org.eclipse.jst.jee.server:SoftCovery::jst.web::3.0"/>
+  </server>
+</servers>

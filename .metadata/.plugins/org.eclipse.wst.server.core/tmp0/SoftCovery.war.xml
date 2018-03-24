@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="G:\Co-Curriculum\Projects\6  -  SoftCovery\SoftCovery\WebContent" targetInArchive="/"/>
+    <dir sourceOnDisk="G:\Co-Curriculum\Projects\6  -  SoftCovery\SoftCovery\build\classes" targetInArchive="/WEB-INF/classes"/>
+</archive>

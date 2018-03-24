@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title> SoftCovery </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('select').material_select();
+    });
+    function enableSwitch(){
+      var sel = document.getElementById('selectele');
+      var flag = false;
+      //alert("hi");
+      for(var i=0; i<sel.options.length; i++){
+        if(sel.options[i].value!="" && sel.options[i].selected){
+          //alert(i+" "+sel.options[i].value);
+          flag = true;
+          break;
+        }
+      }
+      /*if(flag){
+        var switchbox = document.getElementById('switchInput');
+        switchbox.disbaled=false;
+        alert("Status of switch bfr: "+switchbox.getAttribute("disabled"));
+        switchbox.setAttribute("disabled", "true");
+        alert("Status of switch aftr: "+switchbox.getAttribute("disabled"));
+      }
+      else{
+        var switchbox = document.getElementById('switchInput');
+        switchbox.setAttribute("disabled", "true");
+      }*/
+    }
+    function makeToast(){
+      var switchInput = document.getElementById('switchInput').checked;
+      if(switchInput){
+        Materialize.toast("ALL is selected",2000);
+      }
+      else{
+        Materialize.toast("ANY is selected",2000);
+      }
+    }
+    </script>
+  </head>
+  <body style="overflow: hidden">
+    <div class="row container">
+      <div class="col l12 m12 s12 center">
+        <div class="row">
+          <div class="col l10 offset-l1 m10 offset-m1 s10 offset-s10">
+				<img src="images/Softcovery.png" style="width: 85%; height: 15%" />
+		  </div>
+        </div>
+        <form method="post" name="searchform" action="">
+            <div class="input-field col l12 m12 s12">
+              <input id="search_bar" type="text" class="validate col l9 offset-l1 m9 offset-m1 s9 offset-s1" placeholder="Enter your query... " required/>
+              <button class="btn col l1 m1 s1 indigo darken-4 waves-effect waves-light" type="submit"><i class="material-icons">search</i></button>
+            </div>
+            <div class="section  col l4 m4 s4">
+				<h4 class="indigo-text text-darken-4"> Filters </h4>
+				<div class="input-field">
+					<span class="grey-text">Filters are used to narrow down the search process only on the concepts selected (Optional)</span>
+					<select multiple onchange="enableSwitch()" id="selectele">
+                <option value="" disabled selected>Choose the tags...</option>
+                <option value="machine learning">Machine Learning</option>
+                <option value="artificial intellignece">Artificial Intelligence</option>
+                <option value="artificial neural networks">Artificial Neural Networks</option>
+                <option value="computer vision">Computer Vision</option>
+                <option value="cognitive science">Cognitive science</option>
+                <option value="algorithm">Algorithm</option>
+                <option value="fuzzy logic">Fuzzy Logic</option>
+            </select>
+				</div>
+			</div>
+			<div class="section col l4 offset-l4 m4 offset-m4 s4 offset-s4">
+				<h4 class="indigo-text text-darken-4"> Constraint </h4>
+				<div class="switch">
+					<div class="grey-text">Turn the button ALL to retrieve the searches matching all the concepts selected (It's default to ANY)</div>
+					<div> &nbsp; </div>
+					<label>
+					Any
+					<input id="switchInput" type="checkbox" onchange="makeToast()"/>
+					<span class="lever"></span>
+					All
+					</label>
+				</div>
+			</div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

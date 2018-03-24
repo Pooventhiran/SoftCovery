@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;java-sdk-4.2.1-jar-with-dependencies.jar&apos; to &apos;global&apos;" description="Move &apos;java-sdk-4.2.1-jar-with-dependencies.jar&apos; to &apos;global&apos;" destination="shared/config/lib/global" element1="/SoftCovery/WebContent/java-sdk-4.2.1-jar-with-dependencies.jar" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1517204213057" updateReferences="true"/>
+</session>
