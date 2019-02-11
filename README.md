@@ -5,10 +5,10 @@ Wanna find only software news, and that too on specific topics? SoftCovery is he
 
 Given a natural language query and the fields of interest, it will shoot you with the top 10 news related to the constraints.
 
-#Dependencies
+## Dependencies
 - Eclipse Oxygen
  I actually uploaded the complete project directory to help with the structure of the project. 
  
-#Paths to important codes
+## Paths to important codes
 - The web contents (HTML) are available in SoftCovery/code/SoftCovery/WebContent
 - The servelt program is in SoftCovery/code/SoftCovery/src/softcovery/servlet
