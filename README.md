@@ -7,7 +7,8 @@ Given a natural language query and the fields of interest, it will shoot you wit
 
 ## Dependencies
 - Eclipse Oxygen
- I actually uploaded the complete project directory to help with the structure of the project. 
+
+I actually uploaded the complete project directory to help with the structure of the project. 
  
 ## Paths to important codes
 - The web contents (HTML) are available in SoftCovery/code/SoftCovery/WebContent
