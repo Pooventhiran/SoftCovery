@@ -11,5 +11,5 @@ Given a natural language query and the fields of interest, it will shoot you wit
 I actually uploaded the complete project directory to help with the structure of the project. 
  
 ## Paths to important codes
-- The web contents (HTML) are available in SoftCovery/code/SoftCovery/WebContent
-- The servelt program is in SoftCovery/code/SoftCovery/src/softcovery/servlet
+- The web contents (HTML) are available in _SoftCovery/code/SoftCovery/WebContent_
+- The servelt program is in _SoftCovery/code/SoftCovery/src/softcovery/servlet_
