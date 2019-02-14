@@ -10,6 +10,6 @@ Given a natural language query and the fields of interest, it will shoot you wit
 
 I actually uploaded the complete project directory to help with the structure of the project. 
  
-## Paths to important codes
-- The web contents (HTML) are available in _SoftCovery/code/SoftCovery/WebContent_
-- The servelt program is in _SoftCovery/code/SoftCovery/src/softcovery/servlet_
+## Path to important codes
+- The web contents (HTML and images) are in _SoftCovery/code/SoftCovery/WebContent_
+- The servlet program is in _SoftCovery/code/SoftCovery/src/softcovery/servlet_
