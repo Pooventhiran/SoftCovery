@@ -3,13 +3,16 @@
 Hello, Software peeps!
 Wanna find only software news, and that too on specific topics? SoftCovery is here for the rescue.
 
-Given a natural language query and the fields of interest, it will shoot you with the top 10 news related to the constraints.
+It is a news feed application powered by IBM Watson's Disocvery Learning API. Given a natural language query and the fields of interest, it will shoot you with the top 10 news related to the constraints. 
 
 ## Dependencies
 - Eclipse Oxygen
 
 I actually uploaded the complete project directory to help with the structure of the project. 
- 
+
+## Dataset
+It uses the default IBM Watson's news dataset which contains rich information processed and ingested.
+
 ## Path to important codes
 - The web contents (HTML and images) are in [SoftCovery/code/SoftCovery/WebContent](https://github.com/Pooventhiran/SoftCovery/tree/master/code/SoftCovery/WebContent)
 - The servlet program is in [SoftCovery/code/SoftCovery/src/softcovery/servlet](https://github.com/Pooventhiran/SoftCovery/tree/master/code/SoftCovery/src/softcovery/servlet)
