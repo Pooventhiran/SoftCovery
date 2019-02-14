@@ -43,7 +43,9 @@ The account can be accessed by specifying the configurations: environment-id, co
     
 Fill in these credentials in the servlet program named **AccessWatson.java** located [here][servlet]
 
+#### Note
 
+The Watson application should receive at least one call in two months. Otherwise, the instance will be disabled and you have to create a new instance for discovery learning.
 
 [//]: # (Link definitions)
 
