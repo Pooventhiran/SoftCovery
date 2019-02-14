@@ -21,8 +21,8 @@ class WatsonDiscovery {
 	public WatsonDiscovery() {
 		queryBuilder = new QueryOptions.Builder(environmentID, collectionID);
 		discovery = new Discovery("2017-11-07");
-		discovery.setEndPoint("https://gateway.watsonplatform.net/discovery/api");
-		discovery.setUsernameAndPassword("6ebfc93a-4013-41d2-97bd-ba99b9295375", "264qC6Rc6kET");
+		discovery.setEndPoint("end-point");
+		discovery.setUsernameAndPassword("username", "password");
 		
 	}
 	public HashMap<String, String> queryDisocveryNews(String userQuery, String[] filters, String constraint) throws IOException {
